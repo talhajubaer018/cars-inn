@@ -11,32 +11,34 @@ const Header = () => {
   }
   return (
     <header className='container flex header'>
-      <div className='logo-container'>
-        <i class="ri-steering-2-line ri-xl"></i>
-        <h3 className='logo-name'>Cars Inn</h3>
-      </div>
+      <Link href="/">
+        <div className='logo-container'>
+          <i className="ri-steering-2-line ri-xl"></i>
+          <h3 className='logo_name'>Cars Inn</h3>
+        </div>
+      </Link>
       <nav className='nav-container flex-center'>
         <div ref={navlist} className='nav-list-container'>
-          <h3>
-            <Link href="/">
+          <Link href="/">
+            <h3>
               <a>Home</a>
-            </Link>
-          </h3>
-          <h3>
-            <Link href="/">
+            </h3>
+          </Link>
+          <Link href="/about">
+            <h3>
               <a>About</a>
-            </Link>
-          </h3>
-          <h3>
-            <Link href="/">
+            </h3>
+          </Link>
+          <Link href="/popular">
+            <h3>
               <a>Popular</a>
-            </Link>
-          </h3>
-          <h3>
-            <Link href="/">
+            </h3>
+          </Link>
+          <Link href="/featured">
+            <h3>
               <a>Featured</a>
-            </Link>
-          </h3>
+            </h3>
+          </Link>
         </div>
         <button ref={hamburger} onClick={navToggle} className='hamburger'>
           <span className='hamburger-top'></span>

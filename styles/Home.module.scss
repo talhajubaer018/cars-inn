@@ -1,0 +1,72 @@
+@use './variables.scss' as *;
+
+.title {
+  font-size: $h1-font-size;
+  margin-bottom: 0.25rem;
+}
+.subtitle {
+  font-size: $h2-font-size;
+  margin-bottom: 0.25rem;
+}
+.car_type {
+  font-size: $h3-font-size;
+  margin-bottom: 1rem;
+}
+.img {
+  z-index: -1;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.car_info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  .car_icon {
+    margin-bottom: .25rem;
+  }
+  .car_number {
+    font-size: $h2-font-size;
+    font-weight: $font-medium;
+    margin-bottom: 0.25rem;
+  }
+  .car_text {
+    font-size: $h3-font-size;
+    font-weight: $font-semibold;
+    color: $text-color-light;
+  }
+}
+.button {
+  position: relative;
+  border: 2px solid $home_button_color;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $h3-font-size;
+  font-weight: $font-medium;
+  margin: 4rem auto;
+  cursor: pointer;
+
+  &::before {
+    content: '';
+    border: 2px solid $home_button_color;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 0 12px $home_button_color_light;
+    transition: 0.3s;
+    animation: button 3s infinite;
+  }
+}
+
+@keyframes button {
+  0% {
+    box-shadow: 0 0 12px $home_button_color_light;
+  }
+  50% {
+    box-shadow: 0 0 24px $home_button_color_light;
+  }
+}

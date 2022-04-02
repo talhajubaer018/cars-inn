@@ -18,6 +18,8 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -48,6 +50,15 @@ nav {
 
   @media screen and (max-width: 1100px) {
     margin: 0 1.5rem;
+  }
+}
+.main_container {
+  max-width: 1024px;
+  margin: 4rem auto;
+  text-align: center;
+
+  @media screen and (max-width: 1100px) {
+    margin: 3rem 1.5rem;
   }
 }
 .grid {
@@ -82,10 +93,16 @@ nav {
   place-items: center;
   gap: 0.5rem;
 
-  & .logo-name:hover {
+  &:hover {
     color: $first-color;
     cursor: pointer;
     transition: all 0.3s;
+
+    & .logo_name {
+      color: $first-color;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
   }
 }
 .nav-container {
@@ -116,10 +133,12 @@ nav {
     &.open  {
       transform: translate(0, 0);
       transition: transform 0.3s;
+      z-index: 1;
     }
   }
   a {
     transition: all 0.3s;
+    cursor: pointer;
   }
 
   a:hover {
@@ -138,6 +157,7 @@ nav {
   background-color: transparent;
   border: 0;
   display: none;
+  z-index: 5;
 
   &:hover {
     transform: scale(1.15)
