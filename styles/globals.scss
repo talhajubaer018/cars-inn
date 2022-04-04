@@ -214,3 +214,26 @@ nav {
     transform: rotate(-45deg) translate(-6px, 6px);
   }
 }
+
+//shape bg
+
+.shape {
+  background-color: hsla(219, 33%, 32%, 0.5);
+  filter: blur(112px);
+  border-radius: 50%;
+  z-index: -1;
+}
+.shape_big {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: -9rem;
+  top: -4rem;
+}
+.shape_small {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  right: -10rem;
+  bottom: 3rem;
+}

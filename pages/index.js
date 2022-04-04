@@ -5,6 +5,8 @@ import s from '../styles/Home.module.scss'
 export default function Home() {
   return (
     <>
+      <div className="shape shape_big"></div>
+      <div className="shape shape_small"></div>
       <h1 className={s.title}>Choose The Best Car</h1>
       <h2 className={s.subtitle}>Porsche Mission E</h2>
       <h3 className={s.car_type}>
@@ -25,14 +27,14 @@ export default function Home() {
           <div className={s.car_icon}>
             <i className="ri-dashboard-3-line ri-xl"></i>
           </div>
-          <h2 className={s.car_number}>24°</h2>
+          <h2 className={s.car_number}>873</h2>
           <h3 className={s.car_text}>MILEAGE</h3>
         </div>
         <div>
           <div className={s.car_icon}>
             <i className="ri-flashlight-fill ri-xl"></i>
           </div>
-          <h2 className={s.car_number}>24°</h2>
+          <h2 className={s.car_number}>94%</h2>
           <h3 className={s.car_text}>BATTERY</h3>
         </div>
       </div>

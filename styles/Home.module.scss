@@ -6,11 +6,16 @@
 }
 .subtitle {
   font-size: $h2-font-size;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 .car_type {
   font-size: $h3-font-size;
   margin-bottom: 1rem;
+
+  i {
+    color: $first-color;
+    margin-right: .25rem;
+  }
 }
 .img {
   z-index: -1;
@@ -22,7 +27,7 @@
   grid-template-columns: 1fr 1fr 1fr;
 
   .car_icon {
-    margin-bottom: .25rem;
+    margin-bottom: .75rem;
   }
   .car_number {
     font-size: $h2-font-size;
