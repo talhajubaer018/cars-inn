@@ -13,7 +13,7 @@ export default function Home() {
         <i className="ri-flashlight-fill"></i>Electric car
       </h3>
       <div className={s.img}>
-        <Image src="/images/home.png" alt="Picture of the author" layout="intrinsic" width={300} height={200} />
+        <Image src="/images/home.png" alt="Featured Car" layout="intrinsic" width={300} height={200} />
       </div>
       <div className={s.car_info}>
         <div>

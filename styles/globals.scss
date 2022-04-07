@@ -218,7 +218,7 @@ nav {
 //shape bg
 
 .shape {
-  background-color: hsla(219, 33%, 32%, 0.5);
+  background-color: $shape_bg_color;
   filter: blur(112px);
   border-radius: 50%;
   z-index: -1;
