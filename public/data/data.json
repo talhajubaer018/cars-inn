@@ -1,0 +1,54 @@
+{
+  "popular_car_data": [
+  {
+    "id": 1,
+    "title": "Porsche",
+    "subtitle": "Turbo S",
+    "image": "/images/popular1.png",
+    "time": "3.7 Sec",
+    "speed": "356 Km/h",
+    "type": "Electric",
+    "price": "$175,900"
+  },
+  {
+    "id": 2,
+    "title": "Porsche",
+    "subtitle": "Taycan",
+    "image": "/images/popular2.png",
+    "time": "3.7 Sec",
+    "speed": "356 Km/h",
+    "type": "Electric",
+    "price": "$114,900"
+  },
+  {
+    "id": 3,
+    "title": "Porsche",
+    "subtitle": "Turbo S Cross",
+    "image": "/images/popular3.png",
+    "time": "3.7 Sec",
+    "speed": "356 Km/h",
+    "type": "Electric",
+    "price": "$150,000"
+  },
+  {
+    "id": 4,
+    "title": "Porsche",
+    "subtitle": "Boxter 718",
+    "image": "/images/popular4.png",
+    "time": "3.7 Sec",
+    "speed": "356 Km/h",
+    "type": "Electric",
+    "price": "$125,900"
+  },
+  {
+    "id": 5,
+    "title": "Porsche",
+    "subtitle": "Cayman",
+    "image": "/images/popular5.png",
+    "time": "3.7 Sec",
+    "speed": "356 Km/h",
+    "type": "Electric",
+    "price": "$128,900"
+  }
+]
+}

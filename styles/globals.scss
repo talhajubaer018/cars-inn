@@ -129,11 +129,11 @@ nav {
       top: 0;
       transition: transform 0.3s;
       background-color: $container-color;
+      z-index: 2;
     }
     &.open  {
       transform: translate(0, 0);
       transition: transform 0.3s;
-      z-index: 1;
     }
   }
   a {
@@ -236,4 +236,19 @@ nav {
   position: absolute;
   right: -10rem;
   bottom: 3rem;
+}
+.shape_smaller {
+  width: 180px;
+  height: 180px;
+  filter: blur(64px);
+  position: absolute;
+}
+
+//swiper class
+
+.swiper-pagination-bullet {
+  background-color: $text-color !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: $first-color !important;
 }
