@@ -21,22 +21,22 @@ const Header = () => {
         <div ref={navlist} className='nav-list-container'>
           <Link href="/">
             <h3>
-              <a>Home</a>
+              <a onClick={navToggle}>Home</a>
             </h3>
           </Link>
           <Link href="/about">
             <h3>
-              <a>About</a>
+              <a onClick={navToggle}>About</a>
             </h3>
           </Link>
           <Link href="/popular">
             <h3>
-              <a>Popular</a>
+              <a onClick={navToggle}>Popular</a>
             </h3>
           </Link>
           <Link href="/featured">
             <h3>
-              <a>Featured</a>
+              <a onClick={navToggle}>Featured</a>
             </h3>
           </Link>
         </div>

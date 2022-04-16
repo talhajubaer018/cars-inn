@@ -236,12 +236,18 @@ nav {
   position: absolute;
   right: -10rem;
   bottom: 3rem;
+
+  @media screen and (max-width: 500px) {
+    right: 0;
+    bottom: 0;
+  }
 }
 .shape_smaller {
   width: 180px;
   height: 180px;
   filter: blur(64px);
   position: absolute;
+  z-index: 1;
 }
 
 //swiper class
