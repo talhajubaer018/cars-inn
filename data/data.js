@@ -41,4 +41,28 @@ const featuredCarData = [
   }
 ]
 
-export {featuredCarData}
+const brands = [
+  {
+    "id": 1,
+    "text": "All",
+    "name": "All",
+    "image": null
+  },
+  {
+    "id": 2,
+    "name": 'porsche',
+    "image": 'images/logo1.png'
+  },
+  {
+    "id": 3,
+    "name": 'audi',
+    "image": 'images/logo2.png'
+  },
+  {
+    "id": 4,
+    "name": 'tesla',
+    "image": 'images/logo3.png'
+  },
+]
+
+export {featuredCarData, brands}
