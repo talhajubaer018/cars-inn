@@ -56,12 +56,12 @@ export default function Featured() {
     <>
       <h1 className={s.heading}>Featured Luxury Cars</h1>
       <div ref={brandContainer} className={s.brands}>
-        {brands.map((brand) => (
+        {/* {brands.map((brand) => (
           <button key={brand.id} id={brand.id} className={s.brand_item} onClick={() => setBrand(brand.name)}>
             <span>{brand.text}</span>
             <img src={brand.image} />
           </button>
-        ))}
+        ))} */}
         <button className={activeMake === 'all' ? `${s.brand_item} active` : s.brand_item} onClick={() => setBrand('all')}>
           <span>All</span>
         </button>

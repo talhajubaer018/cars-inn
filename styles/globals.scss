@@ -22,7 +22,12 @@ a {
   padding: 0;
 }
 
-
+.Featured_brand_item__RtXot.active {
+  background-color: $first-color !important;
+}
+.Featured_brand_item__RtXot.active span, .Featured_brand_item__RtXot.active img {
+  opacity: 1 !important;
+}
 
 body {
   background-color: $body-color;
