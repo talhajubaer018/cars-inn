@@ -77,7 +77,7 @@ export default function Featured() {
       </div>
       <motion.div layout className={s.car_group}>
         {filteredCars.map((car) => (
-          <AnimatePresence>
+          <AnimatePresence key={car.id}>
             <motion.div animate={{opacity: 1}} initial={{opacity: 0}} exit={{opacity: 0}} layout className={s.card} key={car.id} >
               <div className="shape shape_smaller"></div>
               <h1 className={s.title}>{car.title}</h1>
