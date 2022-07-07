@@ -22,7 +22,7 @@ export default function About() {
             renowned brands. They feature futuristic builds and designs with
             new and innovative platforms that last a long time.
           </p>
-          <Link href="#">
+          <Link href="/popular">
             <h3 className={s.button}>
               <a>Know More</a>
             </h3>

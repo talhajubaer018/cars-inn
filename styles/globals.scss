@@ -118,6 +118,10 @@ nav {
   margin-left: auto;
   column-gap: 2.5rem;
 
+  h3.active {
+    color: $first-color;
+  }
+
   @media screen and (max-width: 767px) {
     & {
       position: absolute;
